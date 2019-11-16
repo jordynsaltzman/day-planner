@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Day Planner</title>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+</head>
+
+<body>
+    <div class=jumbotron>
+            <h1 class="display-4">Work Day Planner</h1>
+            <p class="lead">Stay organized. Plan your day!</p>
+            <p class="lead" id="timeDisplay"></p>
+    </div>
+    <div class="container">
+        <div class="row" id="hour9">
+            <div class="col-2 hour">
+                9AM
+            </div>
+            <div class="col-8" id="hour9">
+                <textarea class="task" type="text" id="hr9"></textarea>
+            </div>
+            <div class="col-2">
+                <button class="btn saveBtn" type="submit" hour="hr9">save</button>
+            </div>
+        </div>
+        <div class="row" id="hour10">
+            <div class="col-2 hour">
+                10AM
+            </div>
+            <div class="col-8" id="hour10">
+                <textarea class="task" type="text" id="hr10"></textarea>
+            </div>
+            <div class="col-2">
+                <button class="btn saveBtn" type="submit" hour="hr10">save</button>
+            </div>
+        </div>
+        <div class="row" id="hour11">
+            <div class="col-2 hour">
+                11AM
+            </div>
+            <div class="col-8" id="hour11">
+                <textarea class="task" type="text" id="hr11"></textarea>
+            </div>
+            <div class="col-2">
+                <button class="btn saveBtn" type="submit" hour="hr11">save</button>
+            </div>
+        </div>
+        <div class="row" id="hour12">
+            <div class="col-2 hour">
+                12PM
+            </div>
+            <div class="col-8" id="hour12">
+                <textarea class="task" type="text" id="hr12"></textarea>
+            </div>
+            <div class="col-2">
+                <button class="btn saveBtn" type="submit" hour="hr12">save</button>
+            </div>
+        </div>
+        <div class="row" id="hour13">
+            <div class="col-2 hour">
+                1PM
+            </div>
+            <div class="col-8" id="hour13">
+                <textarea class="task" type="text" id="hr13"></textarea>
+            </div>
+            <div class="col-2">
+                <button class="btn saveBtn" type="submit" hour="hr13">save</button>
+            </div>
+        </div>
+        <div class="row" id="hour14">
+            <div class="col-2 hour">
+                2PM
+            </div>
+            <div class="col-8">
+                <textarea class="task" type="text" id="hr14"></textarea>
+            </div>
+            <div class="col-2">
+                <button class="btn saveBtn" type="submit" hour="hr14">save</button>
+            </div>
+        </div>
+        <div class="row" id="hour15">
+            <div class="col-2 hour">
+                3PM
+            </div>
+            <div class="col-8">
+                <textarea class="task" type="text" id="hr15"></textarea>
+            </div>
+            <div class="col-2">
+                <button class="btn saveBtn" type="submit" hour="hr15">save</button>
+            </div>
+        </div>
+        <div class="row" id="hour16">
+            <div class="col-2 hour">
+                4PM
+            </div>
+            <div class="col-8" >
+                <textarea class="task" type="text" id="hr16"></textarea>
+            </div>
+            <div class="col-2">
+                <button class="btn saveBtn" type="submit" hour="hr16">save</button>
+            </div>
+        </div>
+        <div class="row" id="hour17">
+            <div class="col-2 hour">
+                5PM
+            </div>
+            <div class="col-8">
+                <textarea class="task" type="text" id="hr17"></textarea>
+            </div>
+            <div class="col-2">
+                <button class="btn saveBtn" type="submit" hour="hr17">save</button>
+            </div>
+        </div>
+
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
+    <script src="assets/js/script.js"></script>
+    
+</body>
+
+</html>
