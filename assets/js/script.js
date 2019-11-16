@@ -1,11 +1,15 @@
 $(document).ready(function () {
     setColors();
 
+    //get daily tasks from local storage
+
     for (var i = 9; i < 18; i++) {
         var id = "hr" + i;
         var description = localStorage.getItem(id);
         $("#" + id).val(description);
     }
+
+    //function that saves tasks to the textarea when user clicks save button
 
     $(".saveBtn").click(function (event) {
         event.preventDefault();
@@ -15,12 +19,14 @@ $(document).ready(function () {
         localStorage.setItem(hourId, task);
     });
 
+    //timer function
+
     setInterval(function () {
         $("#timeDisplay").text(moment().format("MMMM DD, YYYY hh:mm:ss"))
         setColors();
     }, 1000);
 
-
+    // function to change colors of time slots based on whether they are in the past, present, and future 
     function setColors() {
         for (i = 9; i < 18; i++) {
             var h = moment().hour();
