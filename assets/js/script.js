@@ -9,7 +9,7 @@ $(document).ready(function () {
 
     $(".saveBtn").click(function (event) {
         event.preventDefault();
-        var hourId = $(this).attr("hour");
+        var hourId = $(this).attr("name");
         var hourString = "#" + hourId;
         var task = $(hourString).val();
         localStorage.setItem(hourId, task);
