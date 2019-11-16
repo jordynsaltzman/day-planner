@@ -4,7 +4,11 @@ This website was created for homework assignment #5 at the Coding Boot Camp at J
 Use the text areas next to each time slot to write your daily tasks, and press the "save" button to save to your local storage. The time slots change color based on past, present, and future. The present time slot is gold, past time slots are grey, and future slots are green. The application also displays the current time and date. 
 
 Link to deployed site: 
-https://jordynsaltzman.github.io/day-planner/.
+https://jordynsaltzman.github.io/day-planner/
+
+Screenshot of site:
+
+![Screenshot of Site](assets/images/screenshot.JPG "Screenshot")
 
 
 
